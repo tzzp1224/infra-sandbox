@@ -1,0 +1,46 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Logs and temp
+*.log
+logs/
+*.tmp
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot / Maven / Gradle artifacts
+**/target/
+**/build/
+**/.gradle/
+*.class
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Node artifacts (for future frontend demos)
+**/node_modules/
+**/dist/
+**/.next/
+
+# Python artifacts (for future scripts)
+**/__pycache__/
+*.pyc
+
+# Test/coverage artifacts
+coverage/
+*.lcov
