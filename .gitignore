@@ -40,6 +40,8 @@ replay_pid*
 # Python artifacts (for future scripts)
 **/__pycache__/
 *.pyc
+.venv/
+**/.venv/
 
 # Test/coverage artifacts
 coverage/

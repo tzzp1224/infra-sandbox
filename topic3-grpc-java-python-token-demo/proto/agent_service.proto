@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package agent;
+
+option java_multiple_files = true;
+option java_package = "com.demo.grpc";
+option java_outer_classname = "AgentServiceProto";
+
+message AnalyzeRequest {
+  string text = 1;
+}
+
+message AnalyzeResponse {
+  int32 length = 1;
+  string status = 2;
+}
+
+service AgentService {
+  rpc AnalyzeText(AnalyzeRequest) returns (AnalyzeResponse);
+}
